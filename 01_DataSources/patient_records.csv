@@ -1,0 +1,1001 @@
+Patient_ID,Name,Age,Gender,Visit_Date,Diagnosis,Treatment,Diagnosis_Description
+1,Patient_1,89,Male,2024-01-01,E11.9,Surgery,Type 2 diabetes mellitus without complications
+2,Patient_2,55,Male,2024-01-02,E11.9,Medication A,Type 2 diabetes mellitus without complications
+3,Patient_3,4,Male,2024-01-03,J18.9,Surgery,"Pneumonia, unspecified organism"
+4,Patient_4,12,Male,2024-01-04,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+5,Patient_5,88,Male,2024-01-05,M54.5,Medication A,Low back pain
+6,Patient_6,57,Male,2024-01-06,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+7,Patient_7,74,Male,2024-01-07,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+8,Patient_8,66,Male,2024-01-08,M54.5,Therapy,Low back pain
+9,Patient_9,74,Male,2024-01-09,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+10,Patient_10,33,Male,2024-01-10,J18.9,Medication A,"Pneumonia, unspecified organism"
+11,Patient_11,3,Female,2024-01-11,M54.5,Therapy,Low back pain
+12,Patient_12,69,Female,2024-01-12,M54.5,Surgery,Low back pain
+13,Patient_13,94,Male,2024-01-13,E11.9,Surgery,Type 2 diabetes mellitus without complications
+14,Patient_14,30,Male,2024-01-14,M54.5,Observation,Low back pain
+15,Patient_15,67,Male,2024-01-15,I10,Observation,Essential (primary) hypertension
+16,Patient_16,92,Male,2024-01-16,I10,Surgery,Essential (primary) hypertension
+17,Patient_17,17,Male,2024-01-17,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+18,Patient_18,48,Female,2024-01-18,M54.5,Medication A,Low back pain
+19,Patient_19,20,Female,2024-01-19,M54.5,Therapy,Low back pain
+20,Patient_20,100,Male,2024-01-20,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+21,Patient_21,85,Male,2024-01-21,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+22,Patient_22,14,Female,2024-01-22,J18.9,Surgery,"Pneumonia, unspecified organism"
+23,Patient_23,86,Male,2024-01-23,E11.9,Medication A,Type 2 diabetes mellitus without complications
+24,Patient_24,99,Male,2024-01-24,E11.9,Therapy,Type 2 diabetes mellitus without complications
+25,Patient_25,75,Female,2024-01-25,J18.9,Therapy,"Pneumonia, unspecified organism"
+26,Patient_26,37,Female,2024-01-26,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+27,Patient_27,27,Male,2024-01-27,M54.5,Surgery,Low back pain
+28,Patient_28,28,Female,2024-01-28,E11.9,Medication A,Type 2 diabetes mellitus without complications
+29,Patient_29,38,Female,2024-01-29,J18.9,Therapy,"Pneumonia, unspecified organism"
+30,Patient_30,98,Male,2024-01-30,E11.9,Observation,Type 2 diabetes mellitus without complications
+31,Patient_31,49,Male,2024-01-31,J18.9,Medication A,"Pneumonia, unspecified organism"
+32,Patient_32,57,Female,2024-02-01,I10,Surgery,Essential (primary) hypertension
+33,Patient_33,78,Female,2024-02-02,I10,Observation,Essential (primary) hypertension
+34,Patient_34,6,Male,2024-02-03,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+35,Patient_35,20,Male,2024-02-04,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+36,Patient_36,97,Male,2024-02-05,J18.9,Therapy,"Pneumonia, unspecified organism"
+37,Patient_37,64,Female,2024-02-06,M54.5,Surgery,Low back pain
+38,Patient_38,44,Male,2024-02-07,E11.9,Observation,Type 2 diabetes mellitus without complications
+39,Patient_39,11,Female,2024-02-08,M54.5,Surgery,Low back pain
+40,Patient_40,91,Female,2024-02-09,J18.9,Medication A,"Pneumonia, unspecified organism"
+41,Patient_41,1,Female,2024-02-10,M54.5,Surgery,Low back pain
+42,Patient_42,100,Female,2024-02-11,J18.9,Surgery,"Pneumonia, unspecified organism"
+43,Patient_43,55,Female,2024-02-12,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+44,Patient_44,39,Female,2024-02-13,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+45,Patient_45,40,Male,2024-02-14,M54.5,Medication A,Low back pain
+46,Patient_46,74,Female,2024-02-15,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+47,Patient_47,10,Female,2024-02-16,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+48,Patient_48,56,Female,2024-02-17,I10,Observation,Essential (primary) hypertension
+49,Patient_49,89,Male,2024-02-18,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+50,Patient_50,24,Female,2024-02-19,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+51,Patient_51,42,Female,2024-02-20,I10,Surgery,Essential (primary) hypertension
+52,Patient_52,85,Male,2024-02-21,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+53,Patient_53,100,Male,2024-02-22,I10,Therapy,Essential (primary) hypertension
+54,Patient_54,76,Female,2024-02-23,E11.9,Therapy,Type 2 diabetes mellitus without complications
+55,Patient_55,33,Male,2024-02-24,E11.9,Observation,Type 2 diabetes mellitus without complications
+56,Patient_56,15,Male,2024-02-25,M54.5,Therapy,Low back pain
+57,Patient_57,78,Female,2024-02-26,M54.5,Medication A,Low back pain
+58,Patient_58,78,Female,2024-02-27,J18.9,Observation,"Pneumonia, unspecified organism"
+59,Patient_59,53,Male,2024-02-28,M54.5,Surgery,Low back pain
+60,Patient_60,30,Female,2024-02-29,I10,Therapy,Essential (primary) hypertension
+61,Patient_61,27,Male,2024-03-01,E11.9,Medication A,Type 2 diabetes mellitus without complications
+62,Patient_62,58,Male,2024-03-02,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+63,Patient_63,92,Female,2024-03-03,E11.9,Observation,Type 2 diabetes mellitus without complications
+64,Patient_64,43,Male,2024-03-04,E11.9,Therapy,Type 2 diabetes mellitus without complications
+65,Patient_65,22,Female,2024-03-05,J18.9,Medication A,"Pneumonia, unspecified organism"
+66,Patient_66,43,Female,2024-03-06,I10,Therapy,Essential (primary) hypertension
+67,Patient_67,40,Male,2024-03-07,J18.9,Medication A,"Pneumonia, unspecified organism"
+68,Patient_68,97,Female,2024-03-08,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+69,Patient_69,28,Male,2024-03-09,E11.9,Surgery,Type 2 diabetes mellitus without complications
+70,Patient_70,86,Male,2024-03-10,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+71,Patient_71,24,Male,2024-03-11,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+72,Patient_72,69,Male,2024-03-12,M54.5,Therapy,Low back pain
+73,Patient_73,10,Male,2024-03-13,E11.9,Surgery,Type 2 diabetes mellitus without complications
+74,Patient_74,4,Male,2024-03-14,M54.5,Observation,Low back pain
+75,Patient_75,15,Female,2024-03-15,M54.5,Observation,Low back pain
+76,Patient_76,18,Female,2024-03-16,I10,Therapy,Essential (primary) hypertension
+77,Patient_77,10,Male,2024-03-17,M54.5,Therapy,Low back pain
+78,Patient_78,4,Female,2024-03-18,J18.9,Observation,"Pneumonia, unspecified organism"
+79,Patient_79,34,Female,2024-03-19,M54.5,Therapy,Low back pain
+80,Patient_80,96,Male,2024-03-20,I10,Surgery,Essential (primary) hypertension
+81,Patient_81,92,Female,2024-03-21,E11.9,Medication A,Type 2 diabetes mellitus without complications
+82,Patient_82,59,Female,2024-03-22,M54.5,Surgery,Low back pain
+83,Patient_83,47,Female,2024-03-23,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+84,Patient_84,9,Female,2024-03-24,I10,Medication A,Essential (primary) hypertension
+85,Patient_85,41,Female,2024-03-25,M54.5,Therapy,Low back pain
+86,Patient_86,80,Female,2024-03-26,M54.5,Therapy,Low back pain
+87,Patient_87,43,Male,2024-03-27,E11.9,Surgery,Type 2 diabetes mellitus without complications
+88,Patient_88,42,Male,2024-03-28,E11.9,Observation,Type 2 diabetes mellitus without complications
+89,Patient_89,29,Female,2024-03-29,M54.5,Surgery,Low back pain
+90,Patient_90,39,Female,2024-03-30,I10,Observation,Essential (primary) hypertension
+91,Patient_91,57,Male,2024-03-31,I10,Observation,Essential (primary) hypertension
+92,Patient_92,42,Female,2024-04-01,J18.9,Observation,"Pneumonia, unspecified organism"
+93,Patient_93,33,Female,2024-04-02,M54.5,Medication A,Low back pain
+94,Patient_94,53,Male,2024-04-03,E11.9,Observation,Type 2 diabetes mellitus without complications
+95,Patient_95,40,Male,2024-04-04,E11.9,Therapy,Type 2 diabetes mellitus without complications
+96,Patient_96,13,Female,2024-04-05,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+97,Patient_97,2,Female,2024-04-06,M54.5,Medication A,Low back pain
+98,Patient_98,93,Female,2024-04-07,M54.5,Medication A,Low back pain
+99,Patient_99,100,Male,2024-04-08,I10,Surgery,Essential (primary) hypertension
+100,Patient_100,24,Male,2024-04-09,M54.5,Surgery,Low back pain
+101,Patient_101,76,Female,2024-04-10,E11.9,Therapy,Type 2 diabetes mellitus without complications
+102,Patient_102,28,Male,2024-04-11,J18.9,Therapy,"Pneumonia, unspecified organism"
+103,Patient_103,81,Male,2024-04-12,I10,Medication A,Essential (primary) hypertension
+104,Patient_104,3,Male,2024-04-13,J18.9,Therapy,"Pneumonia, unspecified organism"
+105,Patient_105,5,Female,2024-04-14,M54.5,Surgery,Low back pain
+106,Patient_106,11,Male,2024-04-15,I10,Medication A,Essential (primary) hypertension
+107,Patient_107,21,Female,2024-04-16,I10,Therapy,Essential (primary) hypertension
+108,Patient_108,24,Male,2024-04-17,J18.9,Therapy,"Pneumonia, unspecified organism"
+109,Patient_109,98,Female,2024-04-18,M54.5,Therapy,Low back pain
+110,Patient_110,53,Male,2024-04-19,J18.9,Surgery,"Pneumonia, unspecified organism"
+111,Patient_111,79,Male,2024-04-20,I10,Medication A,Essential (primary) hypertension
+112,Patient_112,74,Female,2024-04-21,I10,Medication A,Essential (primary) hypertension
+113,Patient_113,23,Female,2024-04-22,I10,Therapy,Essential (primary) hypertension
+114,Patient_114,15,Male,2024-04-23,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+115,Patient_115,43,Female,2024-04-24,M54.5,Therapy,Low back pain
+116,Patient_116,7,Female,2024-04-25,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+117,Patient_117,44,Female,2024-04-26,J18.9,Therapy,"Pneumonia, unspecified organism"
+118,Patient_118,48,Female,2024-04-27,J18.9,Surgery,"Pneumonia, unspecified organism"
+119,Patient_119,37,Female,2024-04-28,I10,Surgery,Essential (primary) hypertension
+120,Patient_120,43,Male,2024-04-29,E11.9,Observation,Type 2 diabetes mellitus without complications
+121,Patient_121,79,Male,2024-04-30,E11.9,Surgery,Type 2 diabetes mellitus without complications
+122,Patient_122,93,Male,2024-05-01,I10,Surgery,Essential (primary) hypertension
+123,Patient_123,30,Male,2024-05-02,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+124,Patient_124,93,Male,2024-05-03,E11.9,Medication A,Type 2 diabetes mellitus without complications
+125,Patient_125,81,Male,2024-05-04,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+126,Patient_126,21,Female,2024-05-05,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+127,Patient_127,88,Female,2024-05-06,E11.9,Therapy,Type 2 diabetes mellitus without complications
+128,Patient_128,53,Female,2024-05-07,E11.9,Observation,Type 2 diabetes mellitus without complications
+129,Patient_129,81,Male,2024-05-08,I10,Therapy,Essential (primary) hypertension
+130,Patient_130,52,Female,2024-05-09,J18.9,Observation,"Pneumonia, unspecified organism"
+131,Patient_131,46,Male,2024-05-10,J18.9,Medication A,"Pneumonia, unspecified organism"
+132,Patient_132,46,Female,2024-05-11,E11.9,Surgery,Type 2 diabetes mellitus without complications
+133,Patient_133,11,Female,2024-05-12,I10,Therapy,Essential (primary) hypertension
+134,Patient_134,39,Male,2024-05-13,M54.5,Therapy,Low back pain
+135,Patient_135,4,Female,2024-05-14,M54.5,Surgery,Low back pain
+136,Patient_136,80,Female,2024-05-15,J18.9,Medication A,"Pneumonia, unspecified organism"
+137,Patient_137,82,Female,2024-05-16,M54.5,Surgery,Low back pain
+138,Patient_138,34,Male,2024-05-17,M54.5,Therapy,Low back pain
+139,Patient_139,49,Female,2024-05-18,E11.9,Therapy,Type 2 diabetes mellitus without complications
+140,Patient_140,65,Female,2024-05-19,J18.9,Therapy,"Pneumonia, unspecified organism"
+141,Patient_141,89,Male,2024-05-20,E11.9,Medication A,Type 2 diabetes mellitus without complications
+142,Patient_142,64,Female,2024-05-21,M54.5,Therapy,Low back pain
+143,Patient_143,49,Female,2024-05-22,I10,Observation,Essential (primary) hypertension
+144,Patient_144,14,Male,2024-05-23,I10,Therapy,Essential (primary) hypertension
+145,Patient_145,59,Male,2024-05-24,J18.9,Observation,"Pneumonia, unspecified organism"
+146,Patient_146,59,Female,2024-05-25,J18.9,Therapy,"Pneumonia, unspecified organism"
+147,Patient_147,85,Male,2024-05-26,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+148,Patient_148,42,Male,2024-05-27,E11.9,Medication A,Type 2 diabetes mellitus without complications
+149,Patient_149,81,Male,2024-05-28,I10,Surgery,Essential (primary) hypertension
+150,Patient_150,58,Male,2024-05-29,E11.9,Surgery,Type 2 diabetes mellitus without complications
+151,Patient_151,49,Male,2024-05-30,E11.9,Therapy,Type 2 diabetes mellitus without complications
+152,Patient_152,95,Female,2024-05-31,E11.9,Therapy,Type 2 diabetes mellitus without complications
+153,Patient_153,54,Female,2024-06-01,I10,Medication A,Essential (primary) hypertension
+154,Patient_154,70,Female,2024-06-02,E11.9,Observation,Type 2 diabetes mellitus without complications
+155,Patient_155,88,Male,2024-06-03,I10,Medication A,Essential (primary) hypertension
+156,Patient_156,25,Female,2024-06-04,J18.9,Medication A,"Pneumonia, unspecified organism"
+157,Patient_157,93,Female,2024-06-05,J18.9,Surgery,"Pneumonia, unspecified organism"
+158,Patient_158,46,Female,2024-06-06,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+159,Patient_159,51,Female,2024-06-07,E11.9,Surgery,Type 2 diabetes mellitus without complications
+160,Patient_160,41,Female,2024-06-08,J18.9,Therapy,"Pneumonia, unspecified organism"
+161,Patient_161,65,Male,2024-06-09,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+162,Patient_162,19,Female,2024-06-10,J18.9,Therapy,"Pneumonia, unspecified organism"
+163,Patient_163,64,Female,2024-06-11,M54.5,Observation,Low back pain
+164,Patient_164,72,Male,2024-06-12,I10,Medication A,Essential (primary) hypertension
+165,Patient_165,33,Female,2024-06-13,E11.9,Medication A,Type 2 diabetes mellitus without complications
+166,Patient_166,89,Female,2024-06-14,J18.9,Surgery,"Pneumonia, unspecified organism"
+167,Patient_167,77,Female,2024-06-15,E11.9,Observation,Type 2 diabetes mellitus without complications
+168,Patient_168,41,Female,2024-06-16,E11.9,Surgery,Type 2 diabetes mellitus without complications
+169,Patient_169,29,Male,2024-06-17,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+170,Patient_170,88,Female,2024-06-18,I10,Observation,Essential (primary) hypertension
+171,Patient_171,21,Female,2024-06-19,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+172,Patient_172,83,Female,2024-06-20,E11.9,Medication A,Type 2 diabetes mellitus without complications
+173,Patient_173,23,Female,2024-06-21,E11.9,Surgery,Type 2 diabetes mellitus without complications
+174,Patient_174,98,Male,2024-06-22,I10,Observation,Essential (primary) hypertension
+175,Patient_175,51,Male,2024-06-23,I10,Medication A,Essential (primary) hypertension
+176,Patient_176,95,Female,2024-06-24,J18.9,Medication A,"Pneumonia, unspecified organism"
+177,Patient_177,36,Female,2024-06-25,J18.9,Therapy,"Pneumonia, unspecified organism"
+178,Patient_178,36,Male,2024-06-26,M54.5,Medication A,Low back pain
+179,Patient_179,25,Male,2024-06-27,E11.9,Surgery,Type 2 diabetes mellitus without complications
+180,Patient_180,94,Female,2024-06-28,E11.9,Observation,Type 2 diabetes mellitus without complications
+181,Patient_181,24,Female,2024-06-29,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+182,Patient_182,99,Male,2024-06-30,E11.9,Surgery,Type 2 diabetes mellitus without complications
+183,Patient_183,39,Male,2024-07-01,J18.9,Therapy,"Pneumonia, unspecified organism"
+184,Patient_184,35,Male,2024-07-02,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+185,Patient_185,58,Female,2024-07-03,M54.5,Therapy,Low back pain
+186,Patient_186,29,Female,2024-07-04,M54.5,Therapy,Low back pain
+187,Patient_187,88,Male,2024-07-05,M54.5,Medication A,Low back pain
+188,Patient_188,28,Male,2024-07-06,E11.9,Medication A,Type 2 diabetes mellitus without complications
+189,Patient_189,32,Female,2024-07-07,J18.9,Medication A,"Pneumonia, unspecified organism"
+190,Patient_190,70,Female,2024-07-08,E11.9,Surgery,Type 2 diabetes mellitus without complications
+191,Patient_191,4,Female,2024-07-09,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+192,Patient_192,55,Male,2024-07-10,M54.5,Surgery,Low back pain
+193,Patient_193,21,Male,2024-07-11,M54.5,Surgery,Low back pain
+194,Patient_194,74,Female,2024-07-12,E11.9,Surgery,Type 2 diabetes mellitus without complications
+195,Patient_195,66,Male,2024-07-13,E11.9,Surgery,Type 2 diabetes mellitus without complications
+196,Patient_196,15,Male,2024-07-14,J18.9,Medication A,"Pneumonia, unspecified organism"
+197,Patient_197,69,Male,2024-07-15,M54.5,Therapy,Low back pain
+198,Patient_198,71,Female,2024-07-16,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+199,Patient_199,82,Male,2024-07-17,J18.9,Surgery,"Pneumonia, unspecified organism"
+200,Patient_200,61,Female,2024-07-18,M54.5,Observation,Low back pain
+201,Patient_201,46,Female,2024-07-19,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+202,Patient_202,83,Female,2024-07-20,I10,Medication A,Essential (primary) hypertension
+203,Patient_203,76,Female,2024-07-21,J18.9,Observation,"Pneumonia, unspecified organism"
+204,Patient_204,93,Female,2024-07-22,E11.9,Therapy,Type 2 diabetes mellitus without complications
+205,Patient_205,83,Male,2024-07-23,I10,Observation,Essential (primary) hypertension
+206,Patient_206,75,Male,2024-07-24,J18.9,Therapy,"Pneumonia, unspecified organism"
+207,Patient_207,5,Male,2024-07-25,I10,Therapy,Essential (primary) hypertension
+208,Patient_208,88,Male,2024-07-26,M54.5,Therapy,Low back pain
+209,Patient_209,43,Female,2024-07-27,I10,Surgery,Essential (primary) hypertension
+210,Patient_210,44,Male,2024-07-28,M54.5,Surgery,Low back pain
+211,Patient_211,33,Female,2024-07-29,J18.9,Surgery,"Pneumonia, unspecified organism"
+212,Patient_212,54,Male,2024-07-30,E11.9,Therapy,Type 2 diabetes mellitus without complications
+213,Patient_213,74,Female,2024-07-31,I10,Medication A,Essential (primary) hypertension
+214,Patient_214,94,Male,2024-08-01,J18.9,Observation,"Pneumonia, unspecified organism"
+215,Patient_215,42,Male,2024-08-02,J18.9,Observation,"Pneumonia, unspecified organism"
+216,Patient_216,87,Male,2024-08-03,M54.5,Therapy,Low back pain
+217,Patient_217,92,Male,2024-08-04,J18.9,Therapy,"Pneumonia, unspecified organism"
+218,Patient_218,100,Female,2024-08-05,E11.9,Medication A,Type 2 diabetes mellitus without complications
+219,Patient_219,89,Male,2024-08-06,J18.9,Surgery,"Pneumonia, unspecified organism"
+220,Patient_220,60,Female,2024-08-07,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+221,Patient_221,52,Female,2024-08-08,E11.9,Surgery,Type 2 diabetes mellitus without complications
+222,Patient_222,29,Female,2024-08-09,M54.5,Observation,Low back pain
+223,Patient_223,50,Female,2024-08-10,M54.5,Medication A,Low back pain
+224,Patient_224,47,Male,2024-08-11,M54.5,Observation,Low back pain
+225,Patient_225,63,Male,2024-08-12,E11.9,Observation,Type 2 diabetes mellitus without complications
+226,Patient_226,40,Female,2024-08-13,E11.9,Observation,Type 2 diabetes mellitus without complications
+227,Patient_227,15,Female,2024-08-14,E11.9,Medication A,Type 2 diabetes mellitus without complications
+228,Patient_228,72,Male,2024-08-15,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+229,Patient_229,50,Male,2024-08-16,M54.5,Observation,Low back pain
+230,Patient_230,67,Male,2024-08-17,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+231,Patient_231,48,Female,2024-08-18,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+232,Patient_232,99,Female,2024-08-19,M54.5,Medication A,Low back pain
+233,Patient_233,83,Female,2024-08-20,I10,Therapy,Essential (primary) hypertension
+234,Patient_234,72,Female,2024-08-21,E11.9,Observation,Type 2 diabetes mellitus without complications
+235,Patient_235,77,Female,2024-08-22,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+236,Patient_236,71,Female,2024-08-23,E11.9,Medication A,Type 2 diabetes mellitus without complications
+237,Patient_237,43,Male,2024-08-24,M54.5,Therapy,Low back pain
+238,Patient_238,23,Female,2024-08-25,M54.5,Therapy,Low back pain
+239,Patient_239,10,Female,2024-08-26,M54.5,Surgery,Low back pain
+240,Patient_240,28,Female,2024-08-27,M54.5,Surgery,Low back pain
+241,Patient_241,91,Male,2024-08-28,I10,Surgery,Essential (primary) hypertension
+242,Patient_242,28,Female,2024-08-29,E11.9,Therapy,Type 2 diabetes mellitus without complications
+243,Patient_243,74,Female,2024-08-30,E11.9,Therapy,Type 2 diabetes mellitus without complications
+244,Patient_244,88,Male,2024-08-31,E11.9,Surgery,Type 2 diabetes mellitus without complications
+245,Patient_245,47,Female,2024-09-01,I10,Medication A,Essential (primary) hypertension
+246,Patient_246,84,Male,2024-09-02,E11.9,Medication A,Type 2 diabetes mellitus without complications
+247,Patient_247,75,Female,2024-09-03,E11.9,Observation,Type 2 diabetes mellitus without complications
+248,Patient_248,71,Male,2024-09-04,E11.9,Therapy,Type 2 diabetes mellitus without complications
+249,Patient_249,88,Male,2024-09-05,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+250,Patient_250,9,Male,2024-09-06,J18.9,Surgery,"Pneumonia, unspecified organism"
+251,Patient_251,77,Female,2024-09-07,I10,Medication A,Essential (primary) hypertension
+252,Patient_252,2,Male,2024-09-08,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+253,Patient_253,24,Male,2024-09-09,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+254,Patient_254,2,Male,2024-09-10,J18.9,Observation,"Pneumonia, unspecified organism"
+255,Patient_255,90,Male,2024-09-11,I10,Surgery,Essential (primary) hypertension
+256,Patient_256,12,Female,2024-09-12,M54.5,Surgery,Low back pain
+257,Patient_257,23,Female,2024-09-13,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+258,Patient_258,5,Male,2024-09-14,E11.9,Therapy,Type 2 diabetes mellitus without complications
+259,Patient_259,34,Female,2024-09-15,J18.9,Medication A,"Pneumonia, unspecified organism"
+260,Patient_260,93,Male,2024-09-16,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+261,Patient_261,37,Female,2024-09-17,E11.9,Medication A,Type 2 diabetes mellitus without complications
+262,Patient_262,41,Male,2024-09-18,E11.9,Medication A,Type 2 diabetes mellitus without complications
+263,Patient_263,1,Male,2024-09-19,I10,Observation,Essential (primary) hypertension
+264,Patient_264,31,Female,2024-09-20,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+265,Patient_265,97,Female,2024-09-21,I10,Medication A,Essential (primary) hypertension
+266,Patient_266,23,Male,2024-09-22,E11.9,Medication A,Type 2 diabetes mellitus without complications
+267,Patient_267,25,Female,2024-09-23,M54.5,Therapy,Low back pain
+268,Patient_268,24,Male,2024-09-24,E11.9,Therapy,Type 2 diabetes mellitus without complications
+269,Patient_269,65,Female,2024-09-25,E11.9,Therapy,Type 2 diabetes mellitus without complications
+270,Patient_270,23,Male,2024-09-26,E11.9,Surgery,Type 2 diabetes mellitus without complications
+271,Patient_271,74,Male,2024-09-27,I10,Medication A,Essential (primary) hypertension
+272,Patient_272,91,Female,2024-09-28,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+273,Patient_273,59,Male,2024-09-29,M54.5,Medication A,Low back pain
+274,Patient_274,29,Male,2024-09-30,E11.9,Observation,Type 2 diabetes mellitus without complications
+275,Patient_275,26,Male,2024-10-01,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+276,Patient_276,22,Female,2024-10-02,I10,Surgery,Essential (primary) hypertension
+277,Patient_277,30,Male,2024-10-03,J18.9,Therapy,"Pneumonia, unspecified organism"
+278,Patient_278,91,Female,2024-10-04,I10,Observation,Essential (primary) hypertension
+279,Patient_279,51,Female,2024-10-05,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+280,Patient_280,80,Male,2024-10-06,E11.9,Medication A,Type 2 diabetes mellitus without complications
+281,Patient_281,36,Male,2024-10-07,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+282,Patient_282,80,Female,2024-10-08,J18.9,Surgery,"Pneumonia, unspecified organism"
+283,Patient_283,19,Male,2024-10-09,E11.9,Medication A,Type 2 diabetes mellitus without complications
+284,Patient_284,63,Female,2024-10-10,M54.5,Observation,Low back pain
+285,Patient_285,84,Female,2024-10-11,E11.9,Surgery,Type 2 diabetes mellitus without complications
+286,Patient_286,18,Female,2024-10-12,M54.5,Observation,Low back pain
+287,Patient_287,81,Female,2024-10-13,I10,Observation,Essential (primary) hypertension
+288,Patient_288,80,Female,2024-10-14,I10,Surgery,Essential (primary) hypertension
+289,Patient_289,80,Female,2024-10-15,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+290,Patient_290,52,Female,2024-10-16,I10,Therapy,Essential (primary) hypertension
+291,Patient_291,87,Female,2024-10-17,J18.9,Therapy,"Pneumonia, unspecified organism"
+292,Patient_292,34,Female,2024-10-18,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+293,Patient_293,90,Female,2024-10-19,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+294,Patient_294,41,Female,2024-10-20,E11.9,Medication A,Type 2 diabetes mellitus without complications
+295,Patient_295,38,Male,2024-10-21,M54.5,Therapy,Low back pain
+296,Patient_296,74,Male,2024-10-22,E11.9,Observation,Type 2 diabetes mellitus without complications
+297,Patient_297,56,Female,2024-10-23,I10,Surgery,Essential (primary) hypertension
+298,Patient_298,75,Female,2024-10-24,J18.9,Observation,"Pneumonia, unspecified organism"
+299,Patient_299,25,Male,2024-10-25,J18.9,Observation,"Pneumonia, unspecified organism"
+300,Patient_300,75,Male,2024-10-26,J18.9,Medication A,"Pneumonia, unspecified organism"
+301,Patient_301,71,Male,2024-10-27,E11.9,Therapy,Type 2 diabetes mellitus without complications
+302,Patient_302,40,Female,2024-10-28,E11.9,Observation,Type 2 diabetes mellitus without complications
+303,Patient_303,74,Female,2024-10-29,E11.9,Medication A,Type 2 diabetes mellitus without complications
+304,Patient_304,37,Female,2024-10-30,M54.5,Surgery,Low back pain
+305,Patient_305,6,Female,2024-10-31,I10,Observation,Essential (primary) hypertension
+306,Patient_306,97,Female,2024-11-01,I10,Surgery,Essential (primary) hypertension
+307,Patient_307,28,Female,2024-11-02,I10,Therapy,Essential (primary) hypertension
+308,Patient_308,82,Male,2024-11-03,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+309,Patient_309,29,Female,2024-11-04,M54.5,Observation,Low back pain
+310,Patient_310,75,Male,2024-11-05,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+311,Patient_311,92,Male,2024-11-06,I10,Observation,Essential (primary) hypertension
+312,Patient_312,74,Female,2024-11-07,M54.5,Therapy,Low back pain
+313,Patient_313,44,Male,2024-11-08,E11.9,Medication A,Type 2 diabetes mellitus without complications
+314,Patient_314,79,Female,2024-11-09,E11.9,Therapy,Type 2 diabetes mellitus without complications
+315,Patient_315,28,Female,2024-11-10,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+316,Patient_316,88,Male,2024-11-11,E11.9,Therapy,Type 2 diabetes mellitus without complications
+317,Patient_317,13,Male,2024-11-12,E11.9,Surgery,Type 2 diabetes mellitus without complications
+318,Patient_318,30,Male,2024-11-13,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+319,Patient_319,76,Female,2024-11-14,E11.9,Surgery,Type 2 diabetes mellitus without complications
+320,Patient_320,23,Male,2024-11-15,E11.9,Medication A,Type 2 diabetes mellitus without complications
+321,Patient_321,17,Female,2024-11-16,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+322,Patient_322,32,Male,2024-11-17,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+323,Patient_323,91,Female,2024-11-18,J18.9,Observation,"Pneumonia, unspecified organism"
+324,Patient_324,88,Female,2024-11-19,J18.9,Observation,"Pneumonia, unspecified organism"
+325,Patient_325,90,Female,2024-11-20,I10,Observation,Essential (primary) hypertension
+326,Patient_326,8,Male,2024-11-21,E11.9,Therapy,Type 2 diabetes mellitus without complications
+327,Patient_327,85,Female,2024-11-22,J18.9,Surgery,"Pneumonia, unspecified organism"
+328,Patient_328,61,Male,2024-11-23,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+329,Patient_329,31,Male,2024-11-24,J18.9,Therapy,"Pneumonia, unspecified organism"
+330,Patient_330,72,Male,2024-11-25,I10,Therapy,Essential (primary) hypertension
+331,Patient_331,55,Female,2024-11-26,M54.5,Medication A,Low back pain
+332,Patient_332,54,Female,2024-11-27,M54.5,Observation,Low back pain
+333,Patient_333,85,Female,2024-11-28,M54.5,Medication A,Low back pain
+334,Patient_334,29,Male,2024-11-29,M54.5,Medication A,Low back pain
+335,Patient_335,61,Female,2024-11-30,J18.9,Surgery,"Pneumonia, unspecified organism"
+336,Patient_336,46,Female,2024-12-01,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+337,Patient_337,18,Male,2024-12-02,M54.5,Observation,Low back pain
+338,Patient_338,86,Male,2024-12-03,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+339,Patient_339,3,Male,2024-12-04,I10,Medication A,Essential (primary) hypertension
+340,Patient_340,3,Male,2024-12-05,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+341,Patient_341,94,Female,2024-12-06,I10,Surgery,Essential (primary) hypertension
+342,Patient_342,53,Male,2024-12-07,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+343,Patient_343,40,Male,2024-12-08,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+344,Patient_344,3,Female,2024-12-09,M54.5,Medication A,Low back pain
+345,Patient_345,40,Female,2024-12-10,I10,Observation,Essential (primary) hypertension
+346,Patient_346,89,Female,2024-12-11,J18.9,Medication A,"Pneumonia, unspecified organism"
+347,Patient_347,79,Female,2024-12-12,J18.9,Surgery,"Pneumonia, unspecified organism"
+348,Patient_348,95,Male,2024-12-13,M54.5,Surgery,Low back pain
+349,Patient_349,75,Female,2024-12-14,I10,Observation,Essential (primary) hypertension
+350,Patient_350,14,Female,2024-12-15,E11.9,Observation,Type 2 diabetes mellitus without complications
+351,Patient_351,54,Female,2024-12-16,I10,Therapy,Essential (primary) hypertension
+352,Patient_352,10,Male,2024-12-17,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+353,Patient_353,22,Male,2024-12-18,M54.5,Therapy,Low back pain
+354,Patient_354,86,Male,2024-12-19,E11.9,Therapy,Type 2 diabetes mellitus without complications
+355,Patient_355,27,Female,2024-12-20,E11.9,Surgery,Type 2 diabetes mellitus without complications
+356,Patient_356,22,Male,2024-12-21,E11.9,Observation,Type 2 diabetes mellitus without complications
+357,Patient_357,81,Female,2024-12-22,E11.9,Therapy,Type 2 diabetes mellitus without complications
+358,Patient_358,39,Female,2024-12-23,J18.9,Observation,"Pneumonia, unspecified organism"
+359,Patient_359,83,Female,2024-12-24,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+360,Patient_360,93,Female,2024-12-25,E11.9,Medication A,Type 2 diabetes mellitus without complications
+361,Patient_361,85,Male,2024-12-26,J18.9,Medication A,"Pneumonia, unspecified organism"
+362,Patient_362,18,Female,2024-12-27,J18.9,Therapy,"Pneumonia, unspecified organism"
+363,Patient_363,94,Female,2024-12-28,J18.9,Surgery,"Pneumonia, unspecified organism"
+364,Patient_364,85,Female,2024-12-29,M54.5,Medication A,Low back pain
+365,Patient_365,38,Female,2024-12-30,E11.9,Observation,Type 2 diabetes mellitus without complications
+366,Patient_366,13,Male,2024-12-31,M54.5,Observation,Low back pain
+367,Patient_367,15,Male,2025-01-01,M54.5,Medication A,Low back pain
+368,Patient_368,53,Female,2025-01-02,I10,Observation,Essential (primary) hypertension
+369,Patient_369,66,Male,2025-01-03,I10,Observation,Essential (primary) hypertension
+370,Patient_370,79,Female,2025-01-04,I10,Medication A,Essential (primary) hypertension
+371,Patient_371,14,Male,2025-01-05,M54.5,Medication A,Low back pain
+372,Patient_372,72,Female,2025-01-06,I10,Surgery,Essential (primary) hypertension
+373,Patient_373,53,Male,2025-01-07,M54.5,Medication A,Low back pain
+374,Patient_374,31,Male,2025-01-08,E11.9,Surgery,Type 2 diabetes mellitus without complications
+375,Patient_375,87,Female,2025-01-09,M54.5,Observation,Low back pain
+376,Patient_376,61,Male,2025-01-10,J18.9,Therapy,"Pneumonia, unspecified organism"
+377,Patient_377,82,Male,2025-01-11,J18.9,Surgery,"Pneumonia, unspecified organism"
+378,Patient_378,85,Female,2025-01-12,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+379,Patient_379,12,Female,2025-01-13,I10,Surgery,Essential (primary) hypertension
+380,Patient_380,93,Male,2025-01-14,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+381,Patient_381,93,Female,2025-01-15,J18.9,Observation,"Pneumonia, unspecified organism"
+382,Patient_382,4,Female,2025-01-16,I10,Therapy,Essential (primary) hypertension
+383,Patient_383,38,Female,2025-01-17,M54.5,Medication A,Low back pain
+384,Patient_384,4,Female,2025-01-18,I10,Therapy,Essential (primary) hypertension
+385,Patient_385,98,Female,2025-01-19,J18.9,Medication A,"Pneumonia, unspecified organism"
+386,Patient_386,88,Male,2025-01-20,I10,Medication A,Essential (primary) hypertension
+387,Patient_387,58,Male,2025-01-21,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+388,Patient_388,86,Female,2025-01-22,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+389,Patient_389,68,Female,2025-01-23,I10,Surgery,Essential (primary) hypertension
+390,Patient_390,19,Male,2025-01-24,I10,Medication A,Essential (primary) hypertension
+391,Patient_391,37,Male,2025-01-25,M54.5,Surgery,Low back pain
+392,Patient_392,95,Male,2025-01-26,E11.9,Medication A,Type 2 diabetes mellitus without complications
+393,Patient_393,27,Female,2025-01-27,E11.9,Medication A,Type 2 diabetes mellitus without complications
+394,Patient_394,37,Female,2025-01-28,M54.5,Surgery,Low back pain
+395,Patient_395,24,Female,2025-01-29,M54.5,Surgery,Low back pain
+396,Patient_396,24,Male,2025-01-30,E11.9,Observation,Type 2 diabetes mellitus without complications
+397,Patient_397,51,Female,2025-01-31,M54.5,Medication A,Low back pain
+398,Patient_398,43,Female,2025-02-01,E11.9,Therapy,Type 2 diabetes mellitus without complications
+399,Patient_399,25,Female,2025-02-02,I10,Observation,Essential (primary) hypertension
+400,Patient_400,38,Male,2025-02-03,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+401,Patient_401,25,Male,2025-02-04,E11.9,Surgery,Type 2 diabetes mellitus without complications
+402,Patient_402,27,Male,2025-02-05,M54.5,Medication A,Low back pain
+403,Patient_403,22,Female,2025-02-06,M54.5,Surgery,Low back pain
+404,Patient_404,29,Female,2025-02-07,E11.9,Therapy,Type 2 diabetes mellitus without complications
+405,Patient_405,2,Female,2025-02-08,I10,Therapy,Essential (primary) hypertension
+406,Patient_406,9,Male,2025-02-09,E11.9,Medication A,Type 2 diabetes mellitus without complications
+407,Patient_407,72,Male,2025-02-10,M54.5,Observation,Low back pain
+408,Patient_408,90,Male,2025-02-11,I10,Observation,Essential (primary) hypertension
+409,Patient_409,88,Female,2025-02-12,I10,Therapy,Essential (primary) hypertension
+410,Patient_410,4,Male,2025-02-13,E11.9,Therapy,Type 2 diabetes mellitus without complications
+411,Patient_411,84,Female,2025-02-14,J18.9,Observation,"Pneumonia, unspecified organism"
+412,Patient_412,70,Male,2025-02-15,M54.5,Therapy,Low back pain
+413,Patient_413,87,Male,2025-02-16,I10,Observation,Essential (primary) hypertension
+414,Patient_414,15,Female,2025-02-17,J18.9,Therapy,"Pneumonia, unspecified organism"
+415,Patient_415,67,Female,2025-02-18,M54.5,Medication A,Low back pain
+416,Patient_416,21,Female,2025-02-19,M54.5,Medication A,Low back pain
+417,Patient_417,4,Male,2025-02-20,M54.5,Surgery,Low back pain
+418,Patient_418,89,Male,2025-02-21,I10,Medication A,Essential (primary) hypertension
+419,Patient_419,1,Male,2025-02-22,J18.9,Medication A,"Pneumonia, unspecified organism"
+420,Patient_420,52,Female,2025-02-23,M54.5,Therapy,Low back pain
+421,Patient_421,100,Female,2025-02-24,M54.5,Medication A,Low back pain
+422,Patient_422,6,Female,2025-02-25,I10,Surgery,Essential (primary) hypertension
+423,Patient_423,38,Female,2025-02-26,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+424,Patient_424,19,Male,2025-02-27,E11.9,Medication A,Type 2 diabetes mellitus without complications
+425,Patient_425,79,Male,2025-02-28,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+426,Patient_426,5,Male,2025-03-01,E11.9,Surgery,Type 2 diabetes mellitus without complications
+427,Patient_427,75,Male,2025-03-02,M54.5,Surgery,Low back pain
+428,Patient_428,58,Male,2025-03-03,I10,Surgery,Essential (primary) hypertension
+429,Patient_429,46,Male,2025-03-04,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+430,Patient_430,50,Female,2025-03-05,I10,Therapy,Essential (primary) hypertension
+431,Patient_431,77,Male,2025-03-06,J18.9,Observation,"Pneumonia, unspecified organism"
+432,Patient_432,77,Female,2025-03-07,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+433,Patient_433,67,Female,2025-03-08,E11.9,Therapy,Type 2 diabetes mellitus without complications
+434,Patient_434,87,Female,2025-03-09,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+435,Patient_435,58,Female,2025-03-10,M54.5,Surgery,Low back pain
+436,Patient_436,73,Female,2025-03-11,J18.9,Observation,"Pneumonia, unspecified organism"
+437,Patient_437,85,Male,2025-03-12,I10,Observation,Essential (primary) hypertension
+438,Patient_438,98,Male,2025-03-13,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+439,Patient_439,99,Male,2025-03-14,E11.9,Therapy,Type 2 diabetes mellitus without complications
+440,Patient_440,73,Female,2025-03-15,I10,Medication A,Essential (primary) hypertension
+441,Patient_441,21,Male,2025-03-16,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+442,Patient_442,96,Female,2025-03-17,M54.5,Observation,Low back pain
+443,Patient_443,12,Male,2025-03-18,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+444,Patient_444,22,Male,2025-03-19,E11.9,Medication A,Type 2 diabetes mellitus without complications
+445,Patient_445,20,Female,2025-03-20,E11.9,Surgery,Type 2 diabetes mellitus without complications
+446,Patient_446,56,Female,2025-03-21,I10,Surgery,Essential (primary) hypertension
+447,Patient_447,79,Male,2025-03-22,J18.9,Observation,"Pneumonia, unspecified organism"
+448,Patient_448,56,Male,2025-03-23,J18.9,Therapy,"Pneumonia, unspecified organism"
+449,Patient_449,30,Male,2025-03-24,E11.9,Therapy,Type 2 diabetes mellitus without complications
+450,Patient_450,15,Female,2025-03-25,M54.5,Observation,Low back pain
+451,Patient_451,100,Female,2025-03-26,J18.9,Observation,"Pneumonia, unspecified organism"
+452,Patient_452,40,Female,2025-03-27,I10,Therapy,Essential (primary) hypertension
+453,Patient_453,82,Male,2025-03-28,J18.9,Therapy,"Pneumonia, unspecified organism"
+454,Patient_454,33,Female,2025-03-29,I10,Surgery,Essential (primary) hypertension
+455,Patient_455,58,Male,2025-03-30,I10,Observation,Essential (primary) hypertension
+456,Patient_456,51,Female,2025-03-31,J18.9,Medication A,"Pneumonia, unspecified organism"
+457,Patient_457,35,Female,2025-04-01,E11.9,Surgery,Type 2 diabetes mellitus without complications
+458,Patient_458,90,Female,2025-04-02,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+459,Patient_459,18,Female,2025-04-03,E11.9,Therapy,Type 2 diabetes mellitus without complications
+460,Patient_460,44,Male,2025-04-04,I10,Medication A,Essential (primary) hypertension
+461,Patient_461,97,Female,2025-04-05,M54.5,Therapy,Low back pain
+462,Patient_462,60,Female,2025-04-06,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+463,Patient_463,64,Male,2025-04-07,E11.9,Observation,Type 2 diabetes mellitus without complications
+464,Patient_464,52,Female,2025-04-08,J18.9,Therapy,"Pneumonia, unspecified organism"
+465,Patient_465,72,Female,2025-04-09,I10,Therapy,Essential (primary) hypertension
+466,Patient_466,57,Female,2025-04-10,M54.5,Medication A,Low back pain
+467,Patient_467,61,Male,2025-04-11,M54.5,Surgery,Low back pain
+468,Patient_468,38,Male,2025-04-12,J18.9,Observation,"Pneumonia, unspecified organism"
+469,Patient_469,61,Female,2025-04-13,E11.9,Surgery,Type 2 diabetes mellitus without complications
+470,Patient_470,94,Female,2025-04-14,E11.9,Therapy,Type 2 diabetes mellitus without complications
+471,Patient_471,78,Female,2025-04-15,I10,Surgery,Essential (primary) hypertension
+472,Patient_472,86,Male,2025-04-16,M54.5,Surgery,Low back pain
+473,Patient_473,96,Female,2025-04-17,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+474,Patient_474,53,Female,2025-04-18,E11.9,Surgery,Type 2 diabetes mellitus without complications
+475,Patient_475,34,Female,2025-04-19,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+476,Patient_476,74,Male,2025-04-20,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+477,Patient_477,24,Male,2025-04-21,M54.5,Surgery,Low back pain
+478,Patient_478,24,Male,2025-04-22,J18.9,Therapy,"Pneumonia, unspecified organism"
+479,Patient_479,66,Male,2025-04-23,M54.5,Observation,Low back pain
+480,Patient_480,50,Female,2025-04-24,J18.9,Observation,"Pneumonia, unspecified organism"
+481,Patient_481,27,Female,2025-04-25,I10,Therapy,Essential (primary) hypertension
+482,Patient_482,67,Female,2025-04-26,E11.9,Observation,Type 2 diabetes mellitus without complications
+483,Patient_483,26,Female,2025-04-27,J18.9,Surgery,"Pneumonia, unspecified organism"
+484,Patient_484,84,Male,2025-04-28,E11.9,Surgery,Type 2 diabetes mellitus without complications
+485,Patient_485,62,Male,2025-04-29,J18.9,Medication A,"Pneumonia, unspecified organism"
+486,Patient_486,90,Male,2025-04-30,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+487,Patient_487,12,Female,2025-05-01,I10,Surgery,Essential (primary) hypertension
+488,Patient_488,44,Male,2025-05-02,I10,Medication A,Essential (primary) hypertension
+489,Patient_489,31,Female,2025-05-03,J18.9,Medication A,"Pneumonia, unspecified organism"
+490,Patient_490,83,Male,2025-05-04,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+491,Patient_491,44,Male,2025-05-05,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+492,Patient_492,81,Male,2025-05-06,M54.5,Medication A,Low back pain
+493,Patient_493,72,Male,2025-05-07,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+494,Patient_494,46,Female,2025-05-08,E11.9,Therapy,Type 2 diabetes mellitus without complications
+495,Patient_495,75,Male,2025-05-09,I10,Therapy,Essential (primary) hypertension
+496,Patient_496,50,Male,2025-05-10,I10,Surgery,Essential (primary) hypertension
+497,Patient_497,31,Male,2025-05-11,I10,Surgery,Essential (primary) hypertension
+498,Patient_498,44,Female,2025-05-12,M54.5,Therapy,Low back pain
+499,Patient_499,26,Female,2025-05-13,M54.5,Therapy,Low back pain
+500,Patient_500,88,Female,2025-05-14,I10,Surgery,Essential (primary) hypertension
+501,Patient_501,3,Female,2025-05-15,I10,Therapy,Essential (primary) hypertension
+502,Patient_502,27,Male,2025-05-16,M54.5,Surgery,Low back pain
+503,Patient_503,18,Female,2025-05-17,M54.5,Observation,Low back pain
+504,Patient_504,29,Male,2025-05-18,M54.5,Observation,Low back pain
+505,Patient_505,81,Female,2025-05-19,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+506,Patient_506,98,Male,2025-05-20,E11.9,Observation,Type 2 diabetes mellitus without complications
+507,Patient_507,8,Female,2025-05-21,M54.5,Observation,Low back pain
+508,Patient_508,88,Male,2025-05-22,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+509,Patient_509,44,Female,2025-05-23,M54.5,Medication A,Low back pain
+510,Patient_510,49,Male,2025-05-24,J18.9,Observation,"Pneumonia, unspecified organism"
+511,Patient_511,18,Male,2025-05-25,J18.9,Therapy,"Pneumonia, unspecified organism"
+512,Patient_512,15,Female,2025-05-26,I10,Therapy,Essential (primary) hypertension
+513,Patient_513,23,Male,2025-05-27,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+514,Patient_514,11,Male,2025-05-28,I10,Medication A,Essential (primary) hypertension
+515,Patient_515,17,Male,2025-05-29,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+516,Patient_516,22,Male,2025-05-30,M54.5,Surgery,Low back pain
+517,Patient_517,32,Male,2025-05-31,J18.9,Medication A,"Pneumonia, unspecified organism"
+518,Patient_518,16,Male,2025-06-01,J18.9,Observation,"Pneumonia, unspecified organism"
+519,Patient_519,58,Female,2025-06-02,E11.9,Therapy,Type 2 diabetes mellitus without complications
+520,Patient_520,62,Female,2025-06-03,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+521,Patient_521,2,Male,2025-06-04,E11.9,Observation,Type 2 diabetes mellitus without complications
+522,Patient_522,90,Female,2025-06-05,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+523,Patient_523,4,Male,2025-06-06,E11.9,Surgery,Type 2 diabetes mellitus without complications
+524,Patient_524,100,Male,2025-06-07,E11.9,Therapy,Type 2 diabetes mellitus without complications
+525,Patient_525,88,Male,2025-06-08,M54.5,Therapy,Low back pain
+526,Patient_526,44,Female,2025-06-09,E11.9,Surgery,Type 2 diabetes mellitus without complications
+527,Patient_527,43,Female,2025-06-10,I10,Observation,Essential (primary) hypertension
+528,Patient_528,56,Male,2025-06-11,E11.9,Observation,Type 2 diabetes mellitus without complications
+529,Patient_529,66,Male,2025-06-12,E11.9,Medication A,Type 2 diabetes mellitus without complications
+530,Patient_530,15,Male,2025-06-13,M54.5,Surgery,Low back pain
+531,Patient_531,6,Female,2025-06-14,I10,Therapy,Essential (primary) hypertension
+532,Patient_532,58,Male,2025-06-15,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+533,Patient_533,39,Female,2025-06-16,E11.9,Medication A,Type 2 diabetes mellitus without complications
+534,Patient_534,37,Female,2025-06-17,I10,Observation,Essential (primary) hypertension
+535,Patient_535,29,Male,2025-06-18,E11.9,Medication A,Type 2 diabetes mellitus without complications
+536,Patient_536,26,Male,2025-06-19,J18.9,Medication A,"Pneumonia, unspecified organism"
+537,Patient_537,36,Female,2025-06-20,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+538,Patient_538,77,Female,2025-06-21,M54.5,Therapy,Low back pain
+539,Patient_539,57,Male,2025-06-22,I10,Therapy,Essential (primary) hypertension
+540,Patient_540,7,Male,2025-06-23,M54.5,Surgery,Low back pain
+541,Patient_541,80,Female,2025-06-24,I10,Surgery,Essential (primary) hypertension
+542,Patient_542,31,Female,2025-06-25,J18.9,Therapy,"Pneumonia, unspecified organism"
+543,Patient_543,75,Male,2025-06-26,I10,Surgery,Essential (primary) hypertension
+544,Patient_544,52,Male,2025-06-27,J18.9,Medication A,"Pneumonia, unspecified organism"
+545,Patient_545,70,Male,2025-06-28,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+546,Patient_546,74,Male,2025-06-29,I10,Medication A,Essential (primary) hypertension
+547,Patient_547,67,Female,2025-06-30,I10,Therapy,Essential (primary) hypertension
+548,Patient_548,32,Female,2025-07-01,E11.9,Therapy,Type 2 diabetes mellitus without complications
+549,Patient_549,32,Female,2025-07-02,M54.5,Observation,Low back pain
+550,Patient_550,14,Female,2025-07-03,E11.9,Medication A,Type 2 diabetes mellitus without complications
+551,Patient_551,68,Male,2025-07-04,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+552,Patient_552,78,Female,2025-07-05,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+553,Patient_553,25,Female,2025-07-06,M54.5,Surgery,Low back pain
+554,Patient_554,39,Male,2025-07-07,E11.9,Surgery,Type 2 diabetes mellitus without complications
+555,Patient_555,2,Female,2025-07-08,E11.9,Surgery,Type 2 diabetes mellitus without complications
+556,Patient_556,55,Female,2025-07-09,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+557,Patient_557,14,Male,2025-07-10,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+558,Patient_558,84,Male,2025-07-11,J18.9,Medication A,"Pneumonia, unspecified organism"
+559,Patient_559,78,Female,2025-07-12,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+560,Patient_560,11,Female,2025-07-13,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+561,Patient_561,70,Male,2025-07-14,M54.5,Medication A,Low back pain
+562,Patient_562,57,Male,2025-07-15,J18.9,Observation,"Pneumonia, unspecified organism"
+563,Patient_563,65,Male,2025-07-16,M54.5,Surgery,Low back pain
+564,Patient_564,92,Male,2025-07-17,E11.9,Medication A,Type 2 diabetes mellitus without complications
+565,Patient_565,41,Male,2025-07-18,M54.5,Therapy,Low back pain
+566,Patient_566,70,Female,2025-07-19,I10,Surgery,Essential (primary) hypertension
+567,Patient_567,93,Female,2025-07-20,I10,Medication A,Essential (primary) hypertension
+568,Patient_568,22,Male,2025-07-21,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+569,Patient_569,99,Female,2025-07-22,I10,Therapy,Essential (primary) hypertension
+570,Patient_570,80,Male,2025-07-23,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+571,Patient_571,43,Male,2025-07-24,I10,Surgery,Essential (primary) hypertension
+572,Patient_572,39,Female,2025-07-25,J18.9,Surgery,"Pneumonia, unspecified organism"
+573,Patient_573,81,Male,2025-07-26,M54.5,Observation,Low back pain
+574,Patient_574,61,Female,2025-07-27,J18.9,Therapy,"Pneumonia, unspecified organism"
+575,Patient_575,23,Male,2025-07-28,E11.9,Observation,Type 2 diabetes mellitus without complications
+576,Patient_576,33,Male,2025-07-29,M54.5,Medication A,Low back pain
+577,Patient_577,91,Male,2025-07-30,E11.9,Medication A,Type 2 diabetes mellitus without complications
+578,Patient_578,8,Female,2025-07-31,I10,Medication A,Essential (primary) hypertension
+579,Patient_579,3,Female,2025-08-01,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+580,Patient_580,14,Male,2025-08-02,J18.9,Observation,"Pneumonia, unspecified organism"
+581,Patient_581,34,Male,2025-08-03,E11.9,Therapy,Type 2 diabetes mellitus without complications
+582,Patient_582,99,Female,2025-08-04,M54.5,Observation,Low back pain
+583,Patient_583,30,Female,2025-08-05,I10,Medication A,Essential (primary) hypertension
+584,Patient_584,39,Female,2025-08-06,E11.9,Surgery,Type 2 diabetes mellitus without complications
+585,Patient_585,91,Male,2025-08-07,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+586,Patient_586,45,Female,2025-08-08,E11.9,Therapy,Type 2 diabetes mellitus without complications
+587,Patient_587,95,Female,2025-08-09,J18.9,Observation,"Pneumonia, unspecified organism"
+588,Patient_588,19,Male,2025-08-10,E11.9,Therapy,Type 2 diabetes mellitus without complications
+589,Patient_589,48,Female,2025-08-11,E11.9,Observation,Type 2 diabetes mellitus without complications
+590,Patient_590,45,Male,2025-08-12,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+591,Patient_591,76,Male,2025-08-13,E11.9,Medication A,Type 2 diabetes mellitus without complications
+592,Patient_592,71,Female,2025-08-14,J18.9,Medication A,"Pneumonia, unspecified organism"
+593,Patient_593,50,Female,2025-08-15,E11.9,Observation,Type 2 diabetes mellitus without complications
+594,Patient_594,4,Male,2025-08-16,J18.9,Medication A,"Pneumonia, unspecified organism"
+595,Patient_595,27,Female,2025-08-17,E11.9,Therapy,Type 2 diabetes mellitus without complications
+596,Patient_596,67,Female,2025-08-18,E11.9,Medication A,Type 2 diabetes mellitus without complications
+597,Patient_597,81,Female,2025-08-19,I10,Observation,Essential (primary) hypertension
+598,Patient_598,74,Female,2025-08-20,I10,Medication A,Essential (primary) hypertension
+599,Patient_599,53,Female,2025-08-21,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+600,Patient_600,73,Female,2025-08-22,J18.9,Surgery,"Pneumonia, unspecified organism"
+601,Patient_601,35,Male,2025-08-23,M54.5,Medication A,Low back pain
+602,Patient_602,39,Female,2025-08-24,M54.5,Medication A,Low back pain
+603,Patient_603,95,Female,2025-08-25,I10,Observation,Essential (primary) hypertension
+604,Patient_604,34,Female,2025-08-26,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+605,Patient_605,84,Female,2025-08-27,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+606,Patient_606,16,Male,2025-08-28,I10,Therapy,Essential (primary) hypertension
+607,Patient_607,63,Male,2025-08-29,E11.9,Therapy,Type 2 diabetes mellitus without complications
+608,Patient_608,23,Female,2025-08-30,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+609,Patient_609,33,Female,2025-08-31,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+610,Patient_610,40,Female,2025-09-01,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+611,Patient_611,62,Female,2025-09-02,E11.9,Surgery,Type 2 diabetes mellitus without complications
+612,Patient_612,89,Male,2025-09-03,J18.9,Therapy,"Pneumonia, unspecified organism"
+613,Patient_613,37,Female,2025-09-04,E11.9,Therapy,Type 2 diabetes mellitus without complications
+614,Patient_614,72,Female,2025-09-05,E11.9,Surgery,Type 2 diabetes mellitus without complications
+615,Patient_615,70,Male,2025-09-06,I10,Medication A,Essential (primary) hypertension
+616,Patient_616,92,Male,2025-09-07,I10,Surgery,Essential (primary) hypertension
+617,Patient_617,71,Female,2025-09-08,I10,Surgery,Essential (primary) hypertension
+618,Patient_618,28,Male,2025-09-09,J18.9,Surgery,"Pneumonia, unspecified organism"
+619,Patient_619,64,Female,2025-09-10,I10,Observation,Essential (primary) hypertension
+620,Patient_620,56,Male,2025-09-11,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+621,Patient_621,38,Female,2025-09-12,I10,Therapy,Essential (primary) hypertension
+622,Patient_622,55,Male,2025-09-13,J18.9,Therapy,"Pneumonia, unspecified organism"
+623,Patient_623,100,Female,2025-09-14,M54.5,Medication A,Low back pain
+624,Patient_624,98,Female,2025-09-15,I10,Observation,Essential (primary) hypertension
+625,Patient_625,67,Female,2025-09-16,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+626,Patient_626,44,Male,2025-09-17,E11.9,Therapy,Type 2 diabetes mellitus without complications
+627,Patient_627,10,Male,2025-09-18,J18.9,Medication A,"Pneumonia, unspecified organism"
+628,Patient_628,35,Male,2025-09-19,E11.9,Observation,Type 2 diabetes mellitus without complications
+629,Patient_629,60,Female,2025-09-20,E11.9,Therapy,Type 2 diabetes mellitus without complications
+630,Patient_630,57,Male,2025-09-21,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+631,Patient_631,99,Male,2025-09-22,J18.9,Medication A,"Pneumonia, unspecified organism"
+632,Patient_632,65,Female,2025-09-23,M54.5,Surgery,Low back pain
+633,Patient_633,81,Female,2025-09-24,I10,Medication A,Essential (primary) hypertension
+634,Patient_634,30,Male,2025-09-25,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+635,Patient_635,44,Male,2025-09-26,E11.9,Observation,Type 2 diabetes mellitus without complications
+636,Patient_636,69,Female,2025-09-27,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+637,Patient_637,17,Female,2025-09-28,M54.5,Therapy,Low back pain
+638,Patient_638,51,Female,2025-09-29,E11.9,Observation,Type 2 diabetes mellitus without complications
+639,Patient_639,70,Male,2025-09-30,I10,Therapy,Essential (primary) hypertension
+640,Patient_640,28,Male,2025-10-01,I10,Medication A,Essential (primary) hypertension
+641,Patient_641,96,Female,2025-10-02,E11.9,Observation,Type 2 diabetes mellitus without complications
+642,Patient_642,2,Female,2025-10-03,J18.9,Surgery,"Pneumonia, unspecified organism"
+643,Patient_643,1,Male,2025-10-04,J18.9,Therapy,"Pneumonia, unspecified organism"
+644,Patient_644,48,Female,2025-10-05,E11.9,Surgery,Type 2 diabetes mellitus without complications
+645,Patient_645,19,Male,2025-10-06,M54.5,Observation,Low back pain
+646,Patient_646,26,Female,2025-10-07,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+647,Patient_647,28,Female,2025-10-08,M54.5,Therapy,Low back pain
+648,Patient_648,6,Female,2025-10-09,E11.9,Therapy,Type 2 diabetes mellitus without complications
+649,Patient_649,67,Male,2025-10-10,J18.9,Observation,"Pneumonia, unspecified organism"
+650,Patient_650,88,Male,2025-10-11,E11.9,Therapy,Type 2 diabetes mellitus without complications
+651,Patient_651,42,Female,2025-10-12,I10,Therapy,Essential (primary) hypertension
+652,Patient_652,43,Male,2025-10-13,E11.9,Medication A,Type 2 diabetes mellitus without complications
+653,Patient_653,16,Female,2025-10-14,I10,Therapy,Essential (primary) hypertension
+654,Patient_654,61,Male,2025-10-15,M54.5,Medication A,Low back pain
+655,Patient_655,74,Male,2025-10-16,J18.9,Observation,"Pneumonia, unspecified organism"
+656,Patient_656,17,Male,2025-10-17,M54.5,Therapy,Low back pain
+657,Patient_657,50,Male,2025-10-18,E11.9,Surgery,Type 2 diabetes mellitus without complications
+658,Patient_658,93,Female,2025-10-19,J18.9,Surgery,"Pneumonia, unspecified organism"
+659,Patient_659,6,Male,2025-10-20,I10,Surgery,Essential (primary) hypertension
+660,Patient_660,12,Female,2025-10-21,M54.5,Observation,Low back pain
+661,Patient_661,28,Female,2025-10-22,I10,Medication A,Essential (primary) hypertension
+662,Patient_662,73,Female,2025-10-23,E11.9,Surgery,Type 2 diabetes mellitus without complications
+663,Patient_663,50,Female,2025-10-24,M54.5,Surgery,Low back pain
+664,Patient_664,18,Male,2025-10-25,M54.5,Therapy,Low back pain
+665,Patient_665,28,Male,2025-10-26,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+666,Patient_666,71,Female,2025-10-27,E11.9,Therapy,Type 2 diabetes mellitus without complications
+667,Patient_667,72,Female,2025-10-28,M54.5,Medication A,Low back pain
+668,Patient_668,85,Male,2025-10-29,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+669,Patient_669,2,Male,2025-10-30,M54.5,Observation,Low back pain
+670,Patient_670,82,Female,2025-10-31,J18.9,Therapy,"Pneumonia, unspecified organism"
+671,Patient_671,13,Female,2025-11-01,M54.5,Medication A,Low back pain
+672,Patient_672,53,Female,2025-11-02,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+673,Patient_673,83,Female,2025-11-03,M54.5,Therapy,Low back pain
+674,Patient_674,4,Male,2025-11-04,M54.5,Surgery,Low back pain
+675,Patient_675,27,Female,2025-11-05,E11.9,Observation,Type 2 diabetes mellitus without complications
+676,Patient_676,51,Female,2025-11-06,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+677,Patient_677,57,Male,2025-11-07,M54.5,Observation,Low back pain
+678,Patient_678,99,Male,2025-11-08,I10,Surgery,Essential (primary) hypertension
+679,Patient_679,38,Female,2025-11-09,E11.9,Medication A,Type 2 diabetes mellitus without complications
+680,Patient_680,21,Female,2025-11-10,E11.9,Medication A,Type 2 diabetes mellitus without complications
+681,Patient_681,31,Female,2025-11-11,J18.9,Therapy,"Pneumonia, unspecified organism"
+682,Patient_682,33,Female,2025-11-12,I10,Observation,Essential (primary) hypertension
+683,Patient_683,79,Male,2025-11-13,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+684,Patient_684,92,Male,2025-11-14,J18.9,Therapy,"Pneumonia, unspecified organism"
+685,Patient_685,81,Male,2025-11-15,I10,Surgery,Essential (primary) hypertension
+686,Patient_686,31,Female,2025-11-16,J18.9,Therapy,"Pneumonia, unspecified organism"
+687,Patient_687,82,Female,2025-11-17,M54.5,Medication A,Low back pain
+688,Patient_688,36,Male,2025-11-18,M54.5,Observation,Low back pain
+689,Patient_689,18,Female,2025-11-19,M54.5,Medication A,Low back pain
+690,Patient_690,72,Male,2025-11-20,J18.9,Medication A,"Pneumonia, unspecified organism"
+691,Patient_691,37,Female,2025-11-21,E11.9,Surgery,Type 2 diabetes mellitus without complications
+692,Patient_692,70,Male,2025-11-22,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+693,Patient_693,43,Female,2025-11-23,E11.9,Therapy,Type 2 diabetes mellitus without complications
+694,Patient_694,62,Female,2025-11-24,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+695,Patient_695,21,Female,2025-11-25,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+696,Patient_696,13,Male,2025-11-26,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+697,Patient_697,51,Male,2025-11-27,J18.9,Medication A,"Pneumonia, unspecified organism"
+698,Patient_698,99,Female,2025-11-28,E11.9,Medication A,Type 2 diabetes mellitus without complications
+699,Patient_699,29,Male,2025-11-29,I10,Therapy,Essential (primary) hypertension
+700,Patient_700,89,Male,2025-11-30,E11.9,Observation,Type 2 diabetes mellitus without complications
+701,Patient_701,99,Female,2025-12-01,E11.9,Surgery,Type 2 diabetes mellitus without complications
+702,Patient_702,57,Female,2025-12-02,I10,Surgery,Essential (primary) hypertension
+703,Patient_703,12,Male,2025-12-03,I10,Therapy,Essential (primary) hypertension
+704,Patient_704,80,Female,2025-12-04,E11.9,Observation,Type 2 diabetes mellitus without complications
+705,Patient_705,37,Male,2025-12-05,E11.9,Therapy,Type 2 diabetes mellitus without complications
+706,Patient_706,42,Male,2025-12-06,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+707,Patient_707,92,Male,2025-12-07,E11.9,Surgery,Type 2 diabetes mellitus without complications
+708,Patient_708,7,Male,2025-12-08,J18.9,Surgery,"Pneumonia, unspecified organism"
+709,Patient_709,100,Female,2025-12-09,I10,Therapy,Essential (primary) hypertension
+710,Patient_710,14,Female,2025-12-10,M54.5,Observation,Low back pain
+711,Patient_711,76,Male,2025-12-11,M54.5,Observation,Low back pain
+712,Patient_712,53,Female,2025-12-12,M54.5,Observation,Low back pain
+713,Patient_713,62,Male,2025-12-13,J18.9,Medication A,"Pneumonia, unspecified organism"
+714,Patient_714,37,Male,2025-12-14,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+715,Patient_715,74,Female,2025-12-15,J18.9,Medication A,"Pneumonia, unspecified organism"
+716,Patient_716,47,Female,2025-12-16,M54.5,Therapy,Low back pain
+717,Patient_717,60,Female,2025-12-17,M54.5,Surgery,Low back pain
+718,Patient_718,61,Male,2025-12-18,M54.5,Therapy,Low back pain
+719,Patient_719,32,Male,2025-12-19,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+720,Patient_720,40,Female,2025-12-20,J18.9,Therapy,"Pneumonia, unspecified organism"
+721,Patient_721,22,Male,2025-12-21,M54.5,Therapy,Low back pain
+722,Patient_722,64,Male,2025-12-22,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+723,Patient_723,30,Female,2025-12-23,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+724,Patient_724,4,Female,2025-12-24,J18.9,Medication A,"Pneumonia, unspecified organism"
+725,Patient_725,68,Male,2025-12-25,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+726,Patient_726,58,Female,2025-12-26,E11.9,Observation,Type 2 diabetes mellitus without complications
+727,Patient_727,97,Female,2025-12-27,E11.9,Surgery,Type 2 diabetes mellitus without complications
+728,Patient_728,30,Male,2025-12-28,E11.9,Observation,Type 2 diabetes mellitus without complications
+729,Patient_729,14,Female,2025-12-29,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+730,Patient_730,42,Female,2025-12-30,E11.9,Medication A,Type 2 diabetes mellitus without complications
+731,Patient_731,26,Female,2025-12-31,I10,Medication A,Essential (primary) hypertension
+732,Patient_732,64,Male,2026-01-01,E11.9,Therapy,Type 2 diabetes mellitus without complications
+733,Patient_733,47,Male,2026-01-02,E11.9,Observation,Type 2 diabetes mellitus without complications
+734,Patient_734,57,Male,2026-01-03,M54.5,Medication A,Low back pain
+735,Patient_735,27,Male,2026-01-04,M54.5,Therapy,Low back pain
+736,Patient_736,75,Female,2026-01-05,E11.9,Therapy,Type 2 diabetes mellitus without complications
+737,Patient_737,54,Female,2026-01-06,J18.9,Surgery,"Pneumonia, unspecified organism"
+738,Patient_738,77,Male,2026-01-07,J18.9,Medication A,"Pneumonia, unspecified organism"
+739,Patient_739,40,Female,2026-01-08,E11.9,Surgery,Type 2 diabetes mellitus without complications
+740,Patient_740,99,Female,2026-01-09,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+741,Patient_741,10,Female,2026-01-10,E11.9,Observation,Type 2 diabetes mellitus without complications
+742,Patient_742,32,Male,2026-01-11,I10,Therapy,Essential (primary) hypertension
+743,Patient_743,82,Male,2026-01-12,I10,Surgery,Essential (primary) hypertension
+744,Patient_744,35,Male,2026-01-13,E11.9,Surgery,Type 2 diabetes mellitus without complications
+745,Patient_745,97,Male,2026-01-14,I10,Medication A,Essential (primary) hypertension
+746,Patient_746,95,Male,2026-01-15,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+747,Patient_747,61,Female,2026-01-16,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+748,Patient_748,65,Male,2026-01-17,I10,Observation,Essential (primary) hypertension
+749,Patient_749,55,Male,2026-01-18,M54.5,Therapy,Low back pain
+750,Patient_750,37,Female,2026-01-19,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+751,Patient_751,100,Female,2026-01-20,I10,Medication A,Essential (primary) hypertension
+752,Patient_752,5,Female,2026-01-21,J18.9,Surgery,"Pneumonia, unspecified organism"
+753,Patient_753,56,Male,2026-01-22,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+754,Patient_754,72,Female,2026-01-23,M54.5,Observation,Low back pain
+755,Patient_755,53,Female,2026-01-24,E11.9,Surgery,Type 2 diabetes mellitus without complications
+756,Patient_756,68,Male,2026-01-25,M54.5,Medication A,Low back pain
+757,Patient_757,66,Female,2026-01-26,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+758,Patient_758,28,Female,2026-01-27,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+759,Patient_759,91,Female,2026-01-28,I10,Surgery,Essential (primary) hypertension
+760,Patient_760,37,Male,2026-01-29,E11.9,Observation,Type 2 diabetes mellitus without complications
+761,Patient_761,14,Male,2026-01-30,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+762,Patient_762,21,Female,2026-01-31,M54.5,Surgery,Low back pain
+763,Patient_763,37,Female,2026-02-01,M54.5,Surgery,Low back pain
+764,Patient_764,3,Female,2026-02-02,E11.9,Surgery,Type 2 diabetes mellitus without complications
+765,Patient_765,22,Female,2026-02-03,I10,Observation,Essential (primary) hypertension
+766,Patient_766,5,Male,2026-02-04,J18.9,Observation,"Pneumonia, unspecified organism"
+767,Patient_767,82,Female,2026-02-05,I10,Observation,Essential (primary) hypertension
+768,Patient_768,38,Female,2026-02-06,M54.5,Surgery,Low back pain
+769,Patient_769,9,Female,2026-02-07,I10,Surgery,Essential (primary) hypertension
+770,Patient_770,18,Male,2026-02-08,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+771,Patient_771,8,Male,2026-02-09,E11.9,Therapy,Type 2 diabetes mellitus without complications
+772,Patient_772,8,Female,2026-02-10,I10,Medication A,Essential (primary) hypertension
+773,Patient_773,24,Female,2026-02-11,J18.9,Therapy,"Pneumonia, unspecified organism"
+774,Patient_774,56,Male,2026-02-12,E11.9,Therapy,Type 2 diabetes mellitus without complications
+775,Patient_775,20,Female,2026-02-13,I10,Surgery,Essential (primary) hypertension
+776,Patient_776,68,Male,2026-02-14,J18.9,Medication A,"Pneumonia, unspecified organism"
+777,Patient_777,48,Female,2026-02-15,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+778,Patient_778,56,Male,2026-02-16,I10,Medication A,Essential (primary) hypertension
+779,Patient_779,28,Male,2026-02-17,I10,Therapy,Essential (primary) hypertension
+780,Patient_780,55,Male,2026-02-18,I10,Medication A,Essential (primary) hypertension
+781,Patient_781,100,Male,2026-02-19,M54.5,Surgery,Low back pain
+782,Patient_782,13,Male,2026-02-20,J18.9,Observation,"Pneumonia, unspecified organism"
+783,Patient_783,36,Male,2026-02-21,E11.9,Observation,Type 2 diabetes mellitus without complications
+784,Patient_784,80,Female,2026-02-22,I10,Observation,Essential (primary) hypertension
+785,Patient_785,72,Male,2026-02-23,J18.9,Observation,"Pneumonia, unspecified organism"
+786,Patient_786,59,Female,2026-02-24,I10,Observation,Essential (primary) hypertension
+787,Patient_787,11,Female,2026-02-25,M54.5,Observation,Low back pain
+788,Patient_788,85,Male,2026-02-26,J18.9,Observation,"Pneumonia, unspecified organism"
+789,Patient_789,21,Female,2026-02-27,M54.5,Medication A,Low back pain
+790,Patient_790,10,Male,2026-02-28,J18.9,Observation,"Pneumonia, unspecified organism"
+791,Patient_791,62,Male,2026-03-01,J18.9,Surgery,"Pneumonia, unspecified organism"
+792,Patient_792,83,Male,2026-03-02,M54.5,Surgery,Low back pain
+793,Patient_793,39,Female,2026-03-03,J18.9,Surgery,"Pneumonia, unspecified organism"
+794,Patient_794,1,Female,2026-03-04,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+795,Patient_795,66,Female,2026-03-05,E11.9,Medication A,Type 2 diabetes mellitus without complications
+796,Patient_796,32,Female,2026-03-06,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+797,Patient_797,96,Female,2026-03-07,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+798,Patient_798,46,Male,2026-03-08,E11.9,Observation,Type 2 diabetes mellitus without complications
+799,Patient_799,50,Male,2026-03-09,I10,Therapy,Essential (primary) hypertension
+800,Patient_800,58,Female,2026-03-10,I10,Medication A,Essential (primary) hypertension
+801,Patient_801,91,Female,2026-03-11,M54.5,Surgery,Low back pain
+802,Patient_802,38,Female,2026-03-12,J18.9,Medication A,"Pneumonia, unspecified organism"
+803,Patient_803,70,Male,2026-03-13,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+804,Patient_804,55,Male,2026-03-14,E11.9,Therapy,Type 2 diabetes mellitus without complications
+805,Patient_805,12,Male,2026-03-15,E11.9,Surgery,Type 2 diabetes mellitus without complications
+806,Patient_806,97,Female,2026-03-16,J18.9,Observation,"Pneumonia, unspecified organism"
+807,Patient_807,25,Male,2026-03-17,M54.5,Observation,Low back pain
+808,Patient_808,17,Male,2026-03-18,J18.9,Observation,"Pneumonia, unspecified organism"
+809,Patient_809,38,Male,2026-03-19,I10,Surgery,Essential (primary) hypertension
+810,Patient_810,92,Male,2026-03-20,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+811,Patient_811,36,Male,2026-03-21,I10,Surgery,Essential (primary) hypertension
+812,Patient_812,47,Female,2026-03-22,I10,Observation,Essential (primary) hypertension
+813,Patient_813,92,Female,2026-03-23,J18.9,Surgery,"Pneumonia, unspecified organism"
+814,Patient_814,74,Male,2026-03-24,M54.5,Therapy,Low back pain
+815,Patient_815,30,Male,2026-03-25,I10,Observation,Essential (primary) hypertension
+816,Patient_816,36,Male,2026-03-26,E11.9,Medication A,Type 2 diabetes mellitus without complications
+817,Patient_817,75,Male,2026-03-27,J18.9,Therapy,"Pneumonia, unspecified organism"
+818,Patient_818,81,Male,2026-03-28,J18.9,Medication A,"Pneumonia, unspecified organism"
+819,Patient_819,4,Female,2026-03-29,E11.9,Observation,Type 2 diabetes mellitus without complications
+820,Patient_820,43,Male,2026-03-30,E11.9,Medication A,Type 2 diabetes mellitus without complications
+821,Patient_821,76,Female,2026-03-31,I10,Observation,Essential (primary) hypertension
+822,Patient_822,12,Male,2026-04-01,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+823,Patient_823,43,Male,2026-04-02,I10,Medication A,Essential (primary) hypertension
+824,Patient_824,45,Male,2026-04-03,E11.9,Surgery,Type 2 diabetes mellitus without complications
+825,Patient_825,57,Female,2026-04-04,I10,Surgery,Essential (primary) hypertension
+826,Patient_826,40,Female,2026-04-05,J18.9,Therapy,"Pneumonia, unspecified organism"
+827,Patient_827,7,Female,2026-04-06,E11.9,Medication A,Type 2 diabetes mellitus without complications
+828,Patient_828,64,Female,2026-04-07,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+829,Patient_829,91,Female,2026-04-08,I10,Medication A,Essential (primary) hypertension
+830,Patient_830,21,Male,2026-04-09,M54.5,Therapy,Low back pain
+831,Patient_831,12,Male,2026-04-10,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+832,Patient_832,10,Male,2026-04-11,J18.9,Observation,"Pneumonia, unspecified organism"
+833,Patient_833,78,Female,2026-04-12,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+834,Patient_834,99,Female,2026-04-13,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+835,Patient_835,34,Male,2026-04-14,J18.9,Therapy,"Pneumonia, unspecified organism"
+836,Patient_836,23,Male,2026-04-15,E11.9,Surgery,Type 2 diabetes mellitus without complications
+837,Patient_837,82,Male,2026-04-16,I10,Medication A,Essential (primary) hypertension
+838,Patient_838,77,Female,2026-04-17,I10,Therapy,Essential (primary) hypertension
+839,Patient_839,36,Male,2026-04-18,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+840,Patient_840,48,Male,2026-04-19,M54.5,Surgery,Low back pain
+841,Patient_841,96,Female,2026-04-20,M54.5,Therapy,Low back pain
+842,Patient_842,68,Male,2026-04-21,J18.9,Surgery,"Pneumonia, unspecified organism"
+843,Patient_843,56,Male,2026-04-22,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+844,Patient_844,52,Male,2026-04-23,M54.5,Medication A,Low back pain
+845,Patient_845,76,Female,2026-04-24,I10,Surgery,Essential (primary) hypertension
+846,Patient_846,10,Male,2026-04-25,J18.9,Therapy,"Pneumonia, unspecified organism"
+847,Patient_847,73,Male,2026-04-26,M54.5,Therapy,Low back pain
+848,Patient_848,39,Male,2026-04-27,E11.9,Medication A,Type 2 diabetes mellitus without complications
+849,Patient_849,91,Male,2026-04-28,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+850,Patient_850,57,Male,2026-04-29,M54.5,Surgery,Low back pain
+851,Patient_851,3,Female,2026-04-30,E11.9,Surgery,Type 2 diabetes mellitus without complications
+852,Patient_852,68,Female,2026-05-01,E11.9,Observation,Type 2 diabetes mellitus without complications
+853,Patient_853,69,Male,2026-05-02,E11.9,Surgery,Type 2 diabetes mellitus without complications
+854,Patient_854,81,Female,2026-05-03,E11.9,Surgery,Type 2 diabetes mellitus without complications
+855,Patient_855,58,Male,2026-05-04,M54.5,Therapy,Low back pain
+856,Patient_856,87,Male,2026-05-05,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+857,Patient_857,91,Female,2026-05-06,I10,Therapy,Essential (primary) hypertension
+858,Patient_858,76,Male,2026-05-07,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+859,Patient_859,20,Male,2026-05-08,J18.9,Observation,"Pneumonia, unspecified organism"
+860,Patient_860,55,Female,2026-05-09,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+861,Patient_861,40,Male,2026-05-10,M54.5,Observation,Low back pain
+862,Patient_862,37,Male,2026-05-11,M54.5,Medication A,Low back pain
+863,Patient_863,70,Male,2026-05-12,I10,Therapy,Essential (primary) hypertension
+864,Patient_864,17,Male,2026-05-13,E11.9,Medication A,Type 2 diabetes mellitus without complications
+865,Patient_865,65,Female,2026-05-14,E11.9,Observation,Type 2 diabetes mellitus without complications
+866,Patient_866,84,Female,2026-05-15,M54.5,Surgery,Low back pain
+867,Patient_867,23,Male,2026-05-16,I10,Observation,Essential (primary) hypertension
+868,Patient_868,72,Female,2026-05-17,I10,Surgery,Essential (primary) hypertension
+869,Patient_869,5,Female,2026-05-18,J18.9,Observation,"Pneumonia, unspecified organism"
+870,Patient_870,36,Male,2026-05-19,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+871,Patient_871,60,Female,2026-05-20,M54.5,Medication A,Low back pain
+872,Patient_872,26,Female,2026-05-21,J18.9,Medication A,"Pneumonia, unspecified organism"
+873,Patient_873,98,Male,2026-05-22,I10,Therapy,Essential (primary) hypertension
+874,Patient_874,86,Female,2026-05-23,I10,Medication A,Essential (primary) hypertension
+875,Patient_875,56,Female,2026-05-24,M54.5,Observation,Low back pain
+876,Patient_876,46,Female,2026-05-25,I10,Observation,Essential (primary) hypertension
+877,Patient_877,84,Male,2026-05-26,M54.5,Medication A,Low back pain
+878,Patient_878,48,Male,2026-05-27,I10,Medication A,Essential (primary) hypertension
+879,Patient_879,25,Male,2026-05-28,M54.5,Medication A,Low back pain
+880,Patient_880,41,Female,2026-05-29,J18.9,Observation,"Pneumonia, unspecified organism"
+881,Patient_881,98,Female,2026-05-30,I10,Observation,Essential (primary) hypertension
+882,Patient_882,7,Female,2026-05-31,J18.9,Medication A,"Pneumonia, unspecified organism"
+883,Patient_883,23,Female,2026-06-01,E11.9,Observation,Type 2 diabetes mellitus without complications
+884,Patient_884,89,Male,2026-06-02,E11.9,Medication A,Type 2 diabetes mellitus without complications
+885,Patient_885,80,Female,2026-06-03,M54.5,Therapy,Low back pain
+886,Patient_886,86,Male,2026-06-04,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+887,Patient_887,17,Male,2026-06-05,I10,Therapy,Essential (primary) hypertension
+888,Patient_888,64,Male,2026-06-06,I10,Therapy,Essential (primary) hypertension
+889,Patient_889,7,Female,2026-06-07,E11.9,Medication A,Type 2 diabetes mellitus without complications
+890,Patient_890,50,Female,2026-06-08,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+891,Patient_891,80,Male,2026-06-09,J18.9,Surgery,"Pneumonia, unspecified organism"
+892,Patient_892,15,Female,2026-06-10,I10,Observation,Essential (primary) hypertension
+893,Patient_893,75,Female,2026-06-11,E11.9,Observation,Type 2 diabetes mellitus without complications
+894,Patient_894,36,Female,2026-06-12,J18.9,Medication A,"Pneumonia, unspecified organism"
+895,Patient_895,40,Female,2026-06-13,E11.9,Medication A,Type 2 diabetes mellitus without complications
+896,Patient_896,94,Male,2026-06-14,M54.5,Therapy,Low back pain
+897,Patient_897,90,Female,2026-06-15,I10,Therapy,Essential (primary) hypertension
+898,Patient_898,25,Female,2026-06-16,E11.9,Observation,Type 2 diabetes mellitus without complications
+899,Patient_899,32,Male,2026-06-17,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+900,Patient_900,89,Female,2026-06-18,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+901,Patient_901,30,Female,2026-06-19,I10,Surgery,Essential (primary) hypertension
+902,Patient_902,4,Female,2026-06-20,I10,Medication A,Essential (primary) hypertension
+903,Patient_903,40,Male,2026-06-21,I10,Observation,Essential (primary) hypertension
+904,Patient_904,21,Female,2026-06-22,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+905,Patient_905,70,Female,2026-06-23,E11.9,Surgery,Type 2 diabetes mellitus without complications
+906,Patient_906,98,Male,2026-06-24,I10,Observation,Essential (primary) hypertension
+907,Patient_907,24,Male,2026-06-25,J18.9,Medication A,"Pneumonia, unspecified organism"
+908,Patient_908,98,Male,2026-06-26,E11.9,Medication A,Type 2 diabetes mellitus without complications
+909,Patient_909,90,Female,2026-06-27,M54.5,Therapy,Low back pain
+910,Patient_910,27,Male,2026-06-28,E11.9,Surgery,Type 2 diabetes mellitus without complications
+911,Patient_911,17,Male,2026-06-29,I10,Observation,Essential (primary) hypertension
+912,Patient_912,48,Female,2026-06-30,I10,Surgery,Essential (primary) hypertension
+913,Patient_913,47,Female,2026-07-01,J18.9,Surgery,"Pneumonia, unspecified organism"
+914,Patient_914,90,Male,2026-07-02,J18.9,Surgery,"Pneumonia, unspecified organism"
+915,Patient_915,25,Male,2026-07-03,M54.5,Therapy,Low back pain
+916,Patient_916,82,Male,2026-07-04,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+917,Patient_917,87,Female,2026-07-05,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+918,Patient_918,89,Female,2026-07-06,E11.9,Therapy,Type 2 diabetes mellitus without complications
+919,Patient_919,24,Female,2026-07-07,J18.9,Medication A,"Pneumonia, unspecified organism"
+920,Patient_920,42,Male,2026-07-08,E11.9,Surgery,Type 2 diabetes mellitus without complications
+921,Patient_921,67,Male,2026-07-09,I10,Surgery,Essential (primary) hypertension
+922,Patient_922,71,Female,2026-07-10,I10,Surgery,Essential (primary) hypertension
+923,Patient_923,28,Male,2026-07-11,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+924,Patient_924,90,Female,2026-07-12,J18.9,Observation,"Pneumonia, unspecified organism"
+925,Patient_925,32,Male,2026-07-13,M54.5,Surgery,Low back pain
+926,Patient_926,38,Male,2026-07-14,J18.9,Medication A,"Pneumonia, unspecified organism"
+927,Patient_927,43,Male,2026-07-15,M54.5,Medication A,Low back pain
+928,Patient_928,34,Male,2026-07-16,E11.9,Therapy,Type 2 diabetes mellitus without complications
+929,Patient_929,44,Female,2026-07-17,I10,Medication A,Essential (primary) hypertension
+930,Patient_930,37,Female,2026-07-18,E11.9,Medication A,Type 2 diabetes mellitus without complications
+931,Patient_931,14,Female,2026-07-19,E11.9,Therapy,Type 2 diabetes mellitus without complications
+932,Patient_932,26,Female,2026-07-20,I10,Therapy,Essential (primary) hypertension
+933,Patient_933,78,Male,2026-07-21,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+934,Patient_934,17,Male,2026-07-22,K21.9,Surgery,Gastro-esophageal reflux disease without esophagitis
+935,Patient_935,82,Female,2026-07-23,E11.9,Surgery,Type 2 diabetes mellitus without complications
+936,Patient_936,60,Female,2026-07-24,I10,Surgery,Essential (primary) hypertension
+937,Patient_937,34,Female,2026-07-25,E11.9,Surgery,Type 2 diabetes mellitus without complications
+938,Patient_938,74,Female,2026-07-26,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+939,Patient_939,59,Female,2026-07-27,I10,Surgery,Essential (primary) hypertension
+940,Patient_940,59,Female,2026-07-28,E11.9,Therapy,Type 2 diabetes mellitus without complications
+941,Patient_941,57,Male,2026-07-29,I10,Therapy,Essential (primary) hypertension
+942,Patient_942,17,Female,2026-07-30,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+943,Patient_943,23,Female,2026-07-31,J18.9,Therapy,"Pneumonia, unspecified organism"
+944,Patient_944,20,Male,2026-08-01,M54.5,Medication A,Low back pain
+945,Patient_945,95,Male,2026-08-02,M54.5,Medication A,Low back pain
+946,Patient_946,66,Female,2026-08-03,J18.9,Surgery,"Pneumonia, unspecified organism"
+947,Patient_947,20,Male,2026-08-04,E11.9,Medication A,Type 2 diabetes mellitus without complications
+948,Patient_948,38,Female,2026-08-05,E11.9,Surgery,Type 2 diabetes mellitus without complications
+949,Patient_949,17,Male,2026-08-06,M54.5,Therapy,Low back pain
+950,Patient_950,46,Female,2026-08-07,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+951,Patient_951,2,Female,2026-08-08,E11.9,Therapy,Type 2 diabetes mellitus without complications
+952,Patient_952,2,Female,2026-08-09,I10,Therapy,Essential (primary) hypertension
+953,Patient_953,88,Female,2026-08-10,M54.5,Observation,Low back pain
+954,Patient_954,13,Male,2026-08-11,J18.9,Observation,"Pneumonia, unspecified organism"
+955,Patient_955,61,Male,2026-08-12,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+956,Patient_956,35,Female,2026-08-13,M54.5,Observation,Low back pain
+957,Patient_957,1,Male,2026-08-14,M54.5,Medication A,Low back pain
+958,Patient_958,59,Female,2026-08-15,J18.9,Therapy,"Pneumonia, unspecified organism"
+959,Patient_959,6,Male,2026-08-16,I10,Therapy,Essential (primary) hypertension
+960,Patient_960,67,Male,2026-08-17,J18.9,Surgery,"Pneumonia, unspecified organism"
+961,Patient_961,30,Male,2026-08-18,M54.5,Surgery,Low back pain
+962,Patient_962,34,Female,2026-08-19,E11.9,Surgery,Type 2 diabetes mellitus without complications
+963,Patient_963,1,Male,2026-08-20,J18.9,Surgery,"Pneumonia, unspecified organism"
+964,Patient_964,56,Female,2026-08-21,E11.9,Therapy,Type 2 diabetes mellitus without complications
+965,Patient_965,45,Female,2026-08-22,I10,Surgery,Essential (primary) hypertension
+966,Patient_966,97,Female,2026-08-23,M54.5,Observation,Low back pain
+967,Patient_967,99,Female,2026-08-24,E11.9,Therapy,Type 2 diabetes mellitus without complications
+968,Patient_968,66,Male,2026-08-25,E11.9,Therapy,Type 2 diabetes mellitus without complications
+969,Patient_969,28,Male,2026-08-26,E11.9,Observation,Type 2 diabetes mellitus without complications
+970,Patient_970,49,Female,2026-08-27,K21.9,Therapy,Gastro-esophageal reflux disease without esophagitis
+971,Patient_971,36,Male,2026-08-28,E11.9,Surgery,Type 2 diabetes mellitus without complications
+972,Patient_972,24,Female,2026-08-29,M54.5,Observation,Low back pain
+973,Patient_973,30,Female,2026-08-30,I10,Surgery,Essential (primary) hypertension
+974,Patient_974,86,Female,2026-08-31,M54.5,Therapy,Low back pain
+975,Patient_975,17,Male,2026-09-01,M54.5,Medication A,Low back pain
+976,Patient_976,1,Male,2026-09-02,M54.5,Observation,Low back pain
+977,Patient_977,27,Female,2026-09-03,J18.9,Medication A,"Pneumonia, unspecified organism"
+978,Patient_978,73,Female,2026-09-04,M54.5,Observation,Low back pain
+979,Patient_979,40,Male,2026-09-05,J18.9,Surgery,"Pneumonia, unspecified organism"
+980,Patient_980,33,Female,2026-09-06,E11.9,Therapy,Type 2 diabetes mellitus without complications
+981,Patient_981,10,Male,2026-09-07,E11.9,Surgery,Type 2 diabetes mellitus without complications
+982,Patient_982,7,Male,2026-09-08,K21.9,Medication A,Gastro-esophageal reflux disease without esophagitis
+983,Patient_983,11,Female,2026-09-09,J18.9,Observation,"Pneumonia, unspecified organism"
+984,Patient_984,33,Female,2026-09-10,E11.9,Medication A,Type 2 diabetes mellitus without complications
+985,Patient_985,97,Male,2026-09-11,J18.9,Observation,"Pneumonia, unspecified organism"
+986,Patient_986,61,Male,2026-09-12,I10,Observation,Essential (primary) hypertension
+987,Patient_987,21,Male,2026-09-13,J18.9,Observation,"Pneumonia, unspecified organism"
+988,Patient_988,37,Female,2026-09-14,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+989,Patient_989,26,Male,2026-09-15,M54.5,Observation,Low back pain
+990,Patient_990,46,Female,2026-09-16,E11.9,Observation,Type 2 diabetes mellitus without complications
+991,Patient_991,34,Male,2026-09-17,E11.9,Therapy,Type 2 diabetes mellitus without complications
+992,Patient_992,67,Female,2026-09-18,K21.9,Observation,Gastro-esophageal reflux disease without esophagitis
+993,Patient_993,29,Male,2026-09-19,J18.9,Medication A,"Pneumonia, unspecified organism"
+994,Patient_994,75,Male,2026-09-20,J18.9,Therapy,"Pneumonia, unspecified organism"
+995,Patient_995,35,Female,2026-09-21,E11.9,Therapy,Type 2 diabetes mellitus without complications
+996,Patient_996,96,Male,2026-09-22,M54.5,Medication A,Low back pain
+997,Patient_997,97,Female,2026-09-23,E11.9,Surgery,Type 2 diabetes mellitus without complications
+998,Patient_998,74,Female,2026-09-24,I10,Medication A,Essential (primary) hypertension
+999,Patient_999,46,Female,2026-09-25,M54.5,Therapy,Low back pain
+1000,Patient_1000,65,Male,2026-09-26,J18.9,Medication A,"Pneumonia, unspecified organism"
